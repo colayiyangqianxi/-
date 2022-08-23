@@ -15,7 +15,13 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="cardnumberidentification.cpp">
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="template.hpp">
+      <Filter>头文件</Filter>
+    </ClCompile>
+    <ClCompile Include="include.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
