@@ -17,3 +17,6 @@ bool gettemplate(Mat img, vector<Card>& Card);
 
 //ÒøĞĞ¿¨ºÅ
 bool getbanknumber(Mat img, vector<Card>& num);
+
+//ÇĞ×Ö·û
+bool Cut(vector<Card>& num, vector<Card>& single);

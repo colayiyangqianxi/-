@@ -17,7 +17,11 @@ void main()
 	vector<Card> Banknum;
 
 	getbanknumber(imgbank, Banknum);
+
+	vector<Card> single;
+	Cut(Banknum, single);
+
 	
-	imshow("Image", imgbank);
+	//imshow("Image", imgbank);
 	waitKey(0);
 }
