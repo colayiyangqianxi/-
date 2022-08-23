@@ -81,7 +81,7 @@ bool getbanknumber(Mat img, vector<Card>& num)
 			Rect boundRect = boundingRect(contours[i]);
 			double ratio = double(boundRect.width) / double(boundRect.height);
 
-			if (ratio > 2.5 && ratio < 3.0)
+			if (ratio > 2.5 && ratio < 3.5)
 			{
 				Mat ROI = img(boundRect);
 				num.push_back({ ROI ,boundRect });
@@ -91,12 +91,17 @@ bool getbanknumber(Mat img, vector<Card>& num)
 		}
 	}
 
-	//imshow("test", img);
-
+	imshow("test", img);
+	
 	if (num.size() != 4)
 	{
 		return false;
 	}
-
-	return true;
+	else
+	{
+		return true;
+	}
+	
 }
+
+//ÇĞ¸îËÄĞ¡¿é

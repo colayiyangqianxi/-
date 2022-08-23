@@ -17,12 +17,7 @@ void main()
 	vector<Card> Banknum;
 
 	getbanknumber(imgbank, Banknum);
-
-	for (int i = 0; i < Banknum.size(); i++) {
-		imshow("bank num", Banknum[i].img);
-		waitKey(0);
-	}
-
+	
 	imshow("Image", imgbank);
 	waitKey(0);
 }

@@ -1,3 +1,5 @@
-﻿  main.cpp
+﻿  include.cpp
+  main.cpp
 D:\hanjiang\hanjiang-assess\cardnumberidentification\main.cpp(8,1): warning C4326: “main”的返回类型应为“int”而非“void”
+  正在生成代码...
   cardnumberidentification.vcxproj -> D:\hanjiang\hanjiang-assess\cardnumberidentification\x64\Debug\cardnumberidentification.exe
